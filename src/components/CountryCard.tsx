@@ -1,5 +1,4 @@
 // src/components/CountryCard.tsx
-
 import { Link } from 'react-router-dom';
 
 interface CountryCardProps {
@@ -12,15 +11,16 @@ interface CountryCardProps {
 const CountryCard = ({ name, flagUrl, countrySlug, className = '' }: CountryCardProps) => {
   return (
     <Link to={`/country/${countrySlug}`} className={`block ${className}`}>
-      <div className="bg-white p-4 shadow-lg text-center rounded-md cursor-pointer hover:shadow-xl transition-shadow">
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+        {/* Flag Image */}
         <img
           src={flagUrl}
           alt={`${name} Flag`}
-          width={100}
-          height={60}
-          className="w-full h-20 object-cover mb-2"
+          className="w-full h-32 object-cover rounded-t-2xl"
         />
-        <p className="font-medium">{name}</p>
+        <div className="p-4">
+          <p className="font-semibold text-lg text-center">{name}</p>
+        </div>
       </div>
     </Link>
   );
