@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Australia",
+    "slug": "australia",
+    "flagUrl": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "name": "Brazil",
+    "slug": "brazil",
+    "flagUrl": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "name": "Canada",
+    "slug": "canada",
+    "flagUrl": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "name": "China",
+    "slug": "china",
+    "flagUrl": "https://flagcdn.com/w320/cn.png"
+  },
+  {
+    "name": "France",
+    "slug": "france",
+    "flagUrl": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "name": "Germany",
+    "slug": "germany",
+    "flagUrl": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "name": "India",
+    "slug": "india",
+    "flagUrl": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "name": "Indonesia",
+    "slug": "indonesia",
+    "flagUrl": "https://flagcdn.com/w320/id.png"
+  },
+  {
+    "name": "Italy",
+    "slug": "italy",
+    "flagUrl": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "name": "Japan",
+    "slug": "japan",
+    "flagUrl": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "name": "Mexico",
+    "slug": "mexico",
+    "flagUrl": "https://flagcdn.com/w320/mx.png"
+  },
+  {
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "flagUrl": "https://flagcdn.com/w320/nl.png"
+  },
+  {
+    "name": "New Zealand",
+    "slug": "new-zealand",
+    "flagUrl": "https://flagcdn.com/w320/nz.png"
+  },
+  {
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "flagUrl": "https://flagcdn.com/w320/ng.png"
+  },
+  {
+    "name": "Russia",
+    "slug": "russia",
+    "flagUrl": "https://flagcdn.com/w320/ru.png"
+  },
+  {
+    "name": "Saudi Arabia",
+    "slug": "saudi-arabia",
+    "flagUrl": "https://flagcdn.com/w320/sa.png"
+  },
+  {
+    "name": "South Africa",
+    "slug": "south-africa",
+    "flagUrl": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "name": "United Kingdom",
+    "slug": "united-kingdom",
+    "flagUrl": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "name": "United States",
+    "slug": "united-states",
+    "flagUrl": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "name": "Vietnam",
+    "slug": "vietnam",
+    "flagUrl": "https://flagcdn.com/w320/vn.png"
+  }
+]
