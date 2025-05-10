@@ -1,21 +1,12 @@
 // src/pages/HomePage.tsx
 
-import { useState, useEffect } from 'react';
+import countries from '../data/countries.json'; // ✅ This is correct
 import CountryCard from '../components/CountryCard';
 
 const HomePage = () => {
-  const [countries, setCountries] = useState<any[]>([]);
-
-  useEffect(() => {
-    fetch('/countries.json')
-      .then((res) => res.json())
-      .then((data) => setCountries(data));
-  }, []);
-
   return (
     <div className="bg-gray-100 p-8">
-        
-      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7   grid-rows-1 gap-4 sm:gap-2 md:gap-4 lg:gap-6 xl:gap-8">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-7 grid-rows-1 gap-4 sm:gap-2 md:gap-4 lg:gap-6 xl:gap-8">
         {countries.map((country) => (
           <div
             key={country.slug}
